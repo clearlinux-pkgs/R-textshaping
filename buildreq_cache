@@ -1,5 +1,4 @@
-0.1.2
-R-cpp11
+0.2.0
 pkgconfig(freetype2)
 pkgconfig(fribidi)
 pkgconfig(harfbuzz)
