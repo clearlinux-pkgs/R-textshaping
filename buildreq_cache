@@ -1,4 +1,4 @@
-0.2.0
+0.2.1
 pkgconfig(freetype2)
 pkgconfig(fribidi)
 pkgconfig(harfbuzz)
