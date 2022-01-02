@@ -4,7 +4,7 @@
 #
 Name     : R-textshaping
 Version  : 0.3.6
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/textshaping_0.3.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/textshaping_0.3.6.tar.gz
 Summary  : Bindings to the 'HarfBuzz' and 'Fribidi' Libraries for Text
@@ -42,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1634136705
+export SOURCE_DATE_EPOCH=1641137112
 
 %install
-export SOURCE_DATE_EPOCH=1634136705
+export SOURCE_DATE_EPOCH=1641137112
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -125,3 +125,5 @@ R CMD check --no-manual --no-examples --no-codoc textshaping || :
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/R/library/textshaping/libs/textshaping.so
+/usr/lib64/R/library/textshaping/libs/textshaping.so.avx2
+/usr/lib64/R/library/textshaping/libs/textshaping.so.avx512
