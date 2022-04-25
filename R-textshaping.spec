@@ -4,7 +4,7 @@
 #
 Name     : R-textshaping
 Version  : 0.3.6
-Release  : 22
+Release  : 23
 URL      : https://cran.r-project.org/src/contrib/textshaping_0.3.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/textshaping_0.3.6.tar.gz
 Summary  : Bindings to the 'HarfBuzz' and 'Fribidi' Libraries for Text
